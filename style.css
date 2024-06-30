@@ -18,3 +18,28 @@
     width: 100%;
     border: 5px solid yellow;
 }
+
+.input-field{
+    padding: 1vw;
+}
+
+.heading{
+    font-weight: bold;
+}
+
+input{
+    margin-top: 2vh;
+    width: 40%;
+    height: 10vh;
+    border: none;
+    /* outline: none; */
+    border-radius: 5px;
+}
+
+button{
+    padding: 0.7vw;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 8px;
+}
