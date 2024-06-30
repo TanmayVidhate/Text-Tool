@@ -9,18 +9,21 @@
     font-style: normal;
 }
 
+body{
+    background: #F1F1F1;;
+}
+
 .main{
     width: 100%;
-    height: 100vh;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     text-align: center;
 }
 
 .content{
-    margin-top: 5%;
+    margin-top: 20vh;
     padding: 1vw;
     width: 100%;
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
 }
 
 .input-field{
@@ -29,11 +32,12 @@
 
 .heading{
     font-weight: bold;
+    font-size: 40px;
 }
 
 input{
     margin-top: 2vh;
-    width: 40%;
+    width: 50%;
     height: 10vh;
     border: none;
     /* outline: none; */
@@ -41,9 +45,11 @@ input{
 }
 
 button{
-    padding: 0.7vw;
+    padding: 1.2vw;
     border-radius: 5px;
     border: none;
     outline: none;
     margin: 8px;
+    background: #FEEFAD;
+    
 }
