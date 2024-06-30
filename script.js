@@ -10,5 +10,7 @@ function Upper()
 
 function Lower()
 {
-    
+    const text = input.value
+    const res = output
+    res.innerText = text.toLowerCase()
 }
