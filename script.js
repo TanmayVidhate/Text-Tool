@@ -21,3 +21,12 @@ function Charcnt()
     const res = output
     res.innerText = `The Length is ${text.length}`
 }
+
+function Wordcnt()
+{
+    const text = input.value
+    const arr = text.split(" ")
+    
+    const res = output
+    res.innerText =`Word Count Is ${arr.length}`
+}
