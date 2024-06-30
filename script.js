@@ -14,3 +14,10 @@ function Lower()
     const res = output
     res.innerText = text.toLowerCase()
 }
+
+function Charcnt()
+{
+    const text = input.value
+    const res = output
+    res.innerText = `The Length is ${text.length}`
+}
