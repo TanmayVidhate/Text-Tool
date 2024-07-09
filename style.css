@@ -54,3 +54,74 @@ button{
     background: #FEEFAD;
     
 }
+
+
+/*small Device*/
+@media screen and (max-width:600px){
+    .heading{
+        font-size: 3.5vw;
+    }
+
+    #input{
+        width: 84vw;
+        font-size: 3vw;
+    }
+
+    button{
+        font-size: 2.5vw;
+        padding: 1.8vw 1.8vw;
+        
+    }
+}
+
+/*Normal Device*/
+@media screen and (min-width:601px) and (max-width:768px){
+    .heading{
+        font-size: 4vw;
+    }
+
+    #input{
+        width: 85vw;
+        font-size: 3vw;
+    }
+
+    button{
+        margin-left:0.5vw ;
+        font-size: 2.6vw;
+        padding: 2vw 2vw;
+    }
+}
+
+/*Tablets Device*/
+@media screen and (min-width:769px ) and (max-width:992px){
+    .heading{
+        font-size: 4vw;
+    }
+
+    #input{
+        width: 74vw;
+        font-size: 2.5vw;
+    }
+
+    button{
+        padding: 1vw 1.6vw;
+    }
+}
+
+
+/*Large Device*/
+@media screen and (min-width:993px ) and (max-width:1250px){
+
+    .heading{
+        font-size: 3.2vw;
+    }
+
+    #input{
+        width: 60vw;
+        font-size: 1.8vw;
+    }
+
+    button{
+        padding: 1.2vw 1.5vw;
+    }
+}
